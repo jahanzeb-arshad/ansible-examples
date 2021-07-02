@@ -3,6 +3,7 @@
 
 - name: configure and deploy the webservers and application code
   hosts: webservers
+  remote_user: jahanzeb
 
   roles:
     - web
